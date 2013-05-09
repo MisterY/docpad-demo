@@ -1,0 +1,14 @@
+{
+  "name": "alens-finance",
+  "description": "A site template with DocPad.",
+  "version": "0.1.0",
+  "author": "Alen Siljak <alen.siljak@gmail.com>",
+  "dependencies": {
+    "docpad": "*",
+    "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-marked": "~2.1.1"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}
