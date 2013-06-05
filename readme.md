@@ -20,3 +20,8 @@ Generated files are in out/ directory.
 
 The local web site is served at
 http://localhost:9778/
+
+# Additional #
+
+Install Live Reload plugin to have browser refresh on every source update.
+	npm install --save docpad-plugin-livereload
