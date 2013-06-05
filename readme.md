@@ -2,6 +2,8 @@
 DocPad template for a site.
 This is a demo site. Example on how to use DocPad templates.
 
+# Setup DocPad #
+
 To install docpad:
 	npm install -g docpad@6.38
 
@@ -13,6 +15,14 @@ The root directory, from which to run npm, is the one containing this file.
 
 For issues with proxy, check 
 http://alensiljak.blogspot.co.at/2013/01/npm-proxy-configuration.html
+
+# Setup modules #
+
+npm install --save docpad-plugin-eco docpad-plugin-marked
+npm install --save docpad-plugin-partials
+
+
+# Running #
 
 To run:
 	docpad run
