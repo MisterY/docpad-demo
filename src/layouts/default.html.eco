@@ -2,10 +2,12 @@
 <head>
     <title><%= @document.title %></title>
     <%- @getBlock("meta").toHTML() %>
-    <%- @getBlock("styles").toHTML() %>
+    <%- @getBlock("styles").add(["/styles/style.css"]).toHTML() %>
 </head>
 <body>
     <%- @content %>
     <%- @getBlock("scripts").toHTML() %>
+
+    <p>Disclaimer: This is the default template.</p>
 </body>
 </html>

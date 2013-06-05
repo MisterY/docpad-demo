@@ -3,7 +3,7 @@ DocPad template for a site.
 This is a demo site. Example on how to use DocPad templates.
 
 To install docpad:
-	npm install -g docpad@6.34
+	npm install -g docpad@6.38
 
 If upgrading, run
 	rm -Rf node_modules; npm install
