@@ -6,7 +6,8 @@
   "dependencies": {
     "docpad": "*",
     "docpad-plugin-eco": "~2.0.2",
-    "docpad-plugin-marked": "~2.1.1"
+    "docpad-plugin-marked": "~2.1.1",
+    "docpad-plugin-partials": "*"
   },
   "engines": {
     "node": ">=0.6"
