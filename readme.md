@@ -1,4 +1,3 @@
-
 DocPad template for a site.
 This is a demo site. Example on how to use DocPad templates.
 
@@ -17,6 +16,8 @@ For issues with proxy, check
 http://alensiljak.blogspot.co.at/2013/01/npm-proxy-configuration.html
 
 # Setup modules #
+
+Modules are installed with "npm install" since they are listed in packages.json. They can also be installed manually:
 
 npm install --save docpad-plugin-eco docpad-plugin-marked
 npm install --save docpad-plugin-partials
